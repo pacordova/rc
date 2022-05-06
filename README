@@ -1,0 +1,19 @@
+# rc
+
+Personal fork of the Plan 9 `rc` shell.
+Specifically, it comes from the plan9port repo
+[https://github.com/9fans/plan9port/]
+
+TODO:
+-----
+- Add a hooking function
+- Add 'read' 'echo' 'true' as builtins for performance reasons (like dash)
+
+LICENSE:
+--------
+The original plan9port code is licensed as MIT.
+
+INSTALL
+-------
+You should just be able to do the usual:
+`make && make install`
