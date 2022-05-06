@@ -1,0 +1,8 @@
+*.o
+*/*.o
+*.gch
+*/*.gch
+src/rc
+lib/lib9.a
+src/*.tab.*
+plan9port
