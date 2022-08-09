@@ -41,7 +41,7 @@ y.tab.h y.tab.c: syn.y
 	yacc -d $^
 
 install: rc
-	install -D rc ${DESTDIR}/bin/rc
+	install -D rc ${DESTDIR}${PREFIX}/bin/rc
 	install -D rcmain ${DESTDIR}/etc/rcmain
 
 clean:
