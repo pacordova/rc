@@ -42,7 +42,6 @@ y.tab.h y.tab.c: syn.y
 
 install: rc
 	install -D rc ${DESTDIR}${PREFIX}/bin/rc
-	install -D rcmain ${DESTDIR}/etc/rcmain
 
 clean:
 	rm -f *.o *.a *.out y.tab.* *.gch rc
