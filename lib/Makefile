@@ -1,4 +1,4 @@
-CC = gcc -std=gnu99
+CC = gcc
 CFLAGS := -O2 -I../include -DPLAN9PORT -fcommon $(CFLAGS)
 
 NUM=\
